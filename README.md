@@ -13,3 +13,9 @@ Emails can be send from any private network address:
 Start the image and include your (docker) hosts DNS entry. e.g.
 
 `docker run -d --name postfix -p 25:25 --restart always yorkshirekev/postfix mail.example.com`
+
+This images is available on docker hub and can be downlaoded by running
+
+`docker pull yorkshirekev/postfix`
+
+https://registry.hub.docker.com/u/yorkshirekev/postfix/
