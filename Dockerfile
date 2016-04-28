@@ -1,9 +1,8 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Kevin Ellis
 
-ENV LAST_MODIFIED "2014-10-26 K Ellis"
+ENV LAST_MODIFIED "2016-04-28 K Ellis"
 
-# Add to end of /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install postfix rsyslog -y
 RUN apt-get upgrade bash -y
