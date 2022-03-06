@@ -18,4 +18,4 @@ This images is available on docker hub and can be downloaded by running
 
 `docker pull yorkshirekev/postfix`
 
-https://registry.hub.docker.com/u/yorkshirekev/postfix/
+https://registry.hub.docker.com/r/yorkshirekev/postfix/
